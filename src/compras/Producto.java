@@ -21,7 +21,7 @@ public class Producto {
         **
     }
 
-    public ** getCodigo() {
+    public int getCodigo() {
         return codigo;
     }
 
