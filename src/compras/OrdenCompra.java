@@ -40,7 +40,7 @@ public class OrdenCompra {
                 producto.totalProductosPedidos--;
                 producto.imprimirNombre();
                 System.out.println(" retirado");
-                break;
+                return;
             }
         }
     }
