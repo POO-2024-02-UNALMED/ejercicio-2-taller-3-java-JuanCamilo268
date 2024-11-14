@@ -1,6 +1,6 @@
 package objtaller3;
 
-import compras.**;
+import compras.Producto;
 import gestionHumana.Empleado;
 import **;
 
