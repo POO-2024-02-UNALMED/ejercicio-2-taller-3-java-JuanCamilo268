@@ -19,7 +19,7 @@ public class OrdenCompra {
         Producto.totalProductosPedidos += productos.size();
     }
 
-    ** void agregarProducto(Producto producto) {
+    public void agregarProducto(Producto producto) {
         if (producto.tipo.equals(tipo)) {
             productos.add(producto);
             Producto.totalProductosPedidos++;
