@@ -2,7 +2,7 @@ package gestionHumana;
 
 public class Empleado {
 
-    ** final long cedula;
+    public final long cedula;
     ** String nombre;
     ** String cargo;
     
