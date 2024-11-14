@@ -26,7 +26,7 @@ public class OrdenCompra {
         }
     }
 
-    ** void retirarProducto(Empleado empleado, Producto producto) {
+    public void retirarProducto(Empleado empleado, Producto producto) {
         if (!empleado.tengoPermiso()) {
             **
         }
