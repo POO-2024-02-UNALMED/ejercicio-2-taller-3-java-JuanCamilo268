@@ -16,7 +16,7 @@ public class ObjTaller3 {
         ArrayList<Producto> productos1 = new ArrayList<>();
         productos1.add(p1);
         productos1.add(p3);
-        OrdenCompra orden1 = new OrdenCompra(**, "Aseo", emp1, productos1);
+        OrdenCompra orden1 = new OrdenCompra(101, "Aseo", emp1, productos1);
         System.out.println(Producto.getTotalProductosPedidos());
         orden1.agregarProducto(p4);
         System.out.println(Producto.getTotalProductosPedidos());
