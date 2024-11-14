@@ -34,7 +34,7 @@ public class OrdenCompra {
     }
 
     private void retirarProducto(Producto producto) {
-        for (int i = 0; i < productos.length(); i++) {
+        for (int i = 0; i < productos.size(); i++) {
             if (producto.getCodigo() == productos.get(i).getCodigo()) {
                 productos.remove(i);
                 producto.totalProductosPedidos--;
