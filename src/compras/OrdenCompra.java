@@ -45,7 +45,7 @@ public class OrdenCompra {
         }
     }
 
-    public ** descontar() {
+    public void descontar() {
         Producto.totalProductosPedidos -= productos.size();
     }
 
