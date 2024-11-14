@@ -25,7 +25,7 @@ public class Producto {
         return codigo;
     }
 
-    ** static int getTotalProductosPedidos() {
+    public static int getTotalProductosPedidos() {
         return totalProductosPedidos;
     }
 }
