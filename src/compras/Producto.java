@@ -2,10 +2,10 @@ package compras;
 
 public class Producto {
     
-    ** final int codigo;
-    ** String nombre;
-    ** String tipo;
-    ** static int totalProductosPedidos;
+    private final int codigo;
+    private String nombre;
+    String tipo;
+    static int totalProductosPedidos;
 
     public Producto(int codigo, String nombre, String tipo) {
         this.codigo = codigo;
