@@ -3,7 +3,7 @@ package compras;
 import **;
 import java.util.ArrayList;
 
-public class ** {
+public class OrdenCompra {
 
     ** int codigo;
     ** String tipo;
