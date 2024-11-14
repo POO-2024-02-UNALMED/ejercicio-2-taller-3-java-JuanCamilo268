@@ -20,7 +20,7 @@ public class ObjTaller3 {
         System.out.println(Producto.getTotalProductosPedidos());
         orden1.agregarProducto(p4);
         System.out.println(Producto.getTotalProductosPedidos());
-        orden1.**(p5);
+        orden1.agregarProducto(p5);
         System.out.println(Producto.getTotalProductosPedidos());
         System.out.println("Orden " + orden1.codigo + " creada");
 
