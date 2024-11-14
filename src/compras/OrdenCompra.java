@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 public class OrdenCompra {
 
-    ** int codigo;
+    public int codigo;
     ** String tipo;
     ** Empleado comprador;
     ** ArrayList<Producto> productos;
