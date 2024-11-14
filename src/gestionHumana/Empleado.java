@@ -12,7 +12,7 @@ public class Empleado {
         this.cargo = cargo;
     }
 
-    ** boolean tengoPermiso() {
+    public boolean tengoPermiso() {
         return cargo.contains("Administrador");
     }
 }
