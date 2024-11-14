@@ -28,7 +28,7 @@ public class OrdenCompra {
 
     public void retirarProducto(Empleado empleado, Producto producto) {
         if (!empleado.tengoPermiso()) {
-            **
+            break;
         }
         retirarProducto(producto);
     }
