@@ -1,6 +1,6 @@
 package compras;
 
-import **;
+import Producto;
 import java.util.ArrayList;
 
 public class OrdenCompra {
