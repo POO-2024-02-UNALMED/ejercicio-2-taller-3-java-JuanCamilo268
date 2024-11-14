@@ -2,7 +2,7 @@ package objtaller3;
 
 import compras.Producto;
 import gestionHumana.Empleado;
-import **;
+import compras.OrdenCompra;
 
 public class ObjTaller3 {
 
