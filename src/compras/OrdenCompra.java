@@ -6,9 +6,9 @@ import java.util.ArrayList;
 public class OrdenCompra {
 
     public int codigo;
-    ** String tipo;
-    ** Empleado comprador;
-    ** ArrayList<Producto> productos;
+    private String tipo;
+    private Empleado comprador;
+    private ArrayList<Producto> productos;
 
     public OrdenCompra(int codigo, String tipo, Empleado comprador,
             ArrayList<Producto> productos) {
