@@ -7,7 +7,7 @@ public class Producto {
     ** String tipo;
     ** static int totalProductosPedidos;
 
-    ** Producto(int codigo, String nombre, String tipo) {
+    public Producto(int codigo, String nombre, String tipo) {
         this.codigo = codigo;
         this.nombre = nombre;
         this.tipo = tipo;
