@@ -1,4 +1,4 @@
-package **;
+package gestionHumana;
 
 public class Empleado {
 
