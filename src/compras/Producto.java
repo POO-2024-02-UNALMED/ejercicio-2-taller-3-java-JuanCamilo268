@@ -2,7 +2,7 @@ package compras;
 
 public class Producto {
     
-    private final int codigo;
+    private int codigo;//quité el final porque este no permite el correcto funcionamiento de la función setCodigo
     private String nombre;
     String tipo;
     static int totalProductosPedidos;
@@ -18,7 +18,7 @@ public class Producto {
     }
 
     public void setCodigo(int codigo) {
-        return;
+        this.codigo = codigo;
     }
 
     public int getCodigo() {
